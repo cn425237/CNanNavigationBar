@@ -95,6 +95,7 @@ class twoController: UIViewController, UITableViewDelegate, UITableViewDataSourc
         cn_navBarStyle = .black
         self.navigationItem.rightBarButtonItem = UIBarButtonItem.init(title: "测试", style: UIBarButtonItem.Style.plain, target: nil, action: nil)
         self.view.addSubview(tableView)
+        automaticallyAdjustsScrollViewInset(scrollView: tableView)
 //        automaticallyAdjustsScrollViewInset(scrollView: tableView)
         print(NSLocalizedString("Bundle name", comment: ""))
     }
