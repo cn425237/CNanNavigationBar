@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/cn425237/CNNavigationBar'
+  s.homepage         = "https://github.com/cn425237/CNanNavigationBar"
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'cn' => '742585697@qq.com' }
-  s.source           = { :git => 'https://github.com/cn425237/CNNavigationBar.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/cn425237/CNanNavigationBar.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
