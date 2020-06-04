@@ -1,0 +1,6 @@
+framework module CNanNavigationBar {
+  umbrella header "CNanNavigationBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

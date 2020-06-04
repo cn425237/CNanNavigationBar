@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CNanNavigationBar_Example' do
+  pod 'CNanNavigationBar', :path => '../'
+
+  target 'CNanNavigationBar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

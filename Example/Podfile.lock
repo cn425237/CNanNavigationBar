@@ -1,0 +1,16 @@
+PODS:
+  - CNanNavigationBar (1.0.0)
+
+DEPENDENCIES:
+  - CNanNavigationBar (from `../`)
+
+EXTERNAL SOURCES:
+  CNanNavigationBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CNanNavigationBar: d427f1b469fd39c833789ae7a599f2d66ecbbb46
+
+PODFILE CHECKSUM: ca59a98a94b7be7583e678b728eee04117435af4
+
+COCOAPODS: 1.9.3
