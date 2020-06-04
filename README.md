@@ -8,15 +8,15 @@
 
 ## 效果
 
-![]()
+![](https://github.com/cn425237/CNanNavigationBar/blob/master/Example1.GIF)
 
-![]()
+![](https://github.com/cn425237/CNanNavigationBar/blob/master/Example2.GIF)
 
-![]()
+![](https://github.com/cn425237/CNanNavigationBar/blob/master/Example3.GIF)
 
-![]()
+![](https://github.com/cn425237/CNanNavigationBar/blob/master/Example4.GIF)
 
-![]()
+![](https://github.com/cn425237/CNanNavigationBar/blob/master/Example5.GIF)
 
 
 ## 主要属性
