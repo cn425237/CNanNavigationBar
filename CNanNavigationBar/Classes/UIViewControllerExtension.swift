@@ -190,6 +190,7 @@ extension UIViewController {
                         navigationBar.cn_visualEffecView.subviews.last?.layer.contents = from?.cn_navBarImage?.cgImage
                         navigationBar.cn_visualEffecView.alpha = from?.cn_navBarAlpha ?? 1.0
                         navigationBar.cn_shadowView.alpha = from?.cn_navBarAlpha ?? 1.0
+                        navigationBar.cn_shadowView.isHidden = from?.cn_shadowHidden ?? false
                     }
                 case false:
                     navigationBar.cn_isHidden = to.cn_navBarHidden
@@ -198,6 +199,7 @@ extension UIViewController {
                         navigationBar.cn_visualEffecView.subviews.last?.layer.contents = to.cn_navBarImage?.cgImage
                         navigationBar.cn_visualEffecView.alpha = to.cn_navBarAlpha
                         navigationBar.cn_shadowView.alpha = to.cn_navBarAlpha
+                        navigationBar.cn_shadowView.isHidden = to.cn_shadowHidden
                 }
             }
             UIView.setAnimationsEnabled(true)
@@ -215,6 +217,7 @@ extension UIViewController {
                 navigationBar.cn_visualEffecView.subviews.last?.layer.contents = to.cn_navBarImage?.cgImage
                 navigationBar.cn_visualEffecView.alpha = to.cn_navBarAlpha
                 navigationBar.cn_shadowView.alpha = to.cn_navBarAlpha
+                navigationBar.cn_shadowView.isHidden = to.cn_shadowHidden
                 navigationBar.tintColor = to.cn_tintColor
                 navigationBar.titleTextAttributes = to.cn_titleTextAttributes
             }
